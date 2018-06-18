@@ -1,0 +1,133 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+/*global styles */
+
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+    /*text-align: center;*/
+}
+/* style for tab bar */
+#tab-bar button{
+    height: 72px;
+    width: 33%;
+    border: 0;
+    padding: 16px;
+    font-size: 13px;
+    background-color:white;
+}
+#tab-bar button.high{
+    border-bottom: 4px solid blue;
+}
+#tab-bar button img{
+    display: block;
+    margin:auto;
+    padding:0;
+}
+
+
+/*styles for channel area*/
+ul{
+    list-style-type:none;
+    background-color:white;
+}
+ul .highlight{
+    border-left: 4px solid blue;
+}
+li{
+    padding: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #F5F5F5;
+    vertical-align: middle;
+}
+h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+/*styles for chat area*/
+.message.personal{
+    margin-left: 17.5%;
+}
+
+.message{
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+.message h3{
+    font-size: medium;
+    background-color:white;
+}
+.message button{
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+.message em{
+    font-size:larger;
+    font-style: normal;
+}
+
+p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+strong,
+a {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+div {
+    width: 80%;
+    background-color: white;
+}
+
+a {
+    color: black;
+}
